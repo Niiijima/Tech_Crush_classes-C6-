@@ -9,3 +9,6 @@
 //to clone a repository use git clone
 //to add changes from your working directory to the staging area use git add
 //to record changes in the staging area to the repository use git commit
+//to create a new branch use git branch
+//to change branches use git branch -M (name of branch)
+//this links your repository with your working copy on your laptop git remote add origin
