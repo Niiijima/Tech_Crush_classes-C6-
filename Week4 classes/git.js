@@ -22,3 +22,4 @@
 //the git directed is the repository itself, containing all git internal structures, including the history of all the changes youve made
 //untracked files(u) the files are new and not yet tracked by git
 //tracked (modified, staged and commited) when the files has been tracked by git
+//a branch is an independent line of development that allows developers to isolate theor work from the main codebase, enabling parallel development and experimentation without affecting the primary project. multiple branches can be made and changes made in one branch will not impact others until merged
