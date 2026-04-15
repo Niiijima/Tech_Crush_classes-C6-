@@ -1,4 +1,4 @@
-//slic and substrings are used to extract a part of a string and return it as a new string, without modifying the original string
+//slice and substrings are used to extract a part of a string and return it as a new string, without modifying the original string
 let text = "Hello World"
 let slicedtext = text.slice(0, 5) //the first number specifies where the slice to start and the end number shows where it should end
 let substringtext = text.substring(0, 4)
