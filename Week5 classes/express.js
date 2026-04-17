@@ -42,3 +42,4 @@
 
 //running the server run: node server.js. this opens a browser and goes to http://localhost:3000, you should see the message "Hello World!" displayed on the page, this means that your server is running and is able to handle incoming requests and send appropriate responses back to the client. you can also test your server using tools like Postman or curl to send different types of requests and see how your server responds.
 //to view what you did on your browser, run localhost:3000(or the port number you chose) in your web browser, this will send a request to your server and you should see the response that you defined in your route (e.g. "Hello World!"). if you see the message displayed on the page, it means that your server is running and is able to handle incoming requests and send appropriate responses back to the client. you can also test your server using tools like Postman or curl to send different types of requests and see how your server responds
+
