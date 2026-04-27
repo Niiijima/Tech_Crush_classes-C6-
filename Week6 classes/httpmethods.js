@@ -40,19 +40,23 @@
 // instead of "My name is " + name
 
 //there are general get(it retrieves all the data in that array), and single get (it retrieves specified data)
- 
+//app.get("/users", (req, res) => {
+//  res.json(users); // general GET
+//});
+//app.get("/users/:id", (req, res) => {
+///  const user = users.find(u => u.id == req.params.id);
+//  res.json(user); // single GET
+//});
+
+
 
 //there are two types of routes; static and dynamic. by default, all your routes are static unless you make the dynamic. Dynamic route retrives information you want and you place it after a column    
 //Static Routes
-
 //A static route has a fixed, predefined path. It does not change and does not accept parameters.
-
 //Examples:
-
 //home
 //about
 //contact
-
 //Characteristics:
 //Hardcoded URLs
 //Same content every time
@@ -65,3 +69,4 @@
 //user/1
 //user/42
 //product/abc123
+//<Route path="/user/:id" element={<User />} />

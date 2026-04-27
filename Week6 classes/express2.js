@@ -19,4 +19,16 @@
 //   {  "name": "John", "age": 30},
 //   {  "name": "Jane", "age": 25}
 //]
- 
+//you should use this format when sending data from the client to the server. you can use fetch API to send data from the client. for example
+// fetch("/submit", {
+//    method: "POST",
+//    headers: {    "Content-Type": "application/json"          
+//    },
+//    body: JSON.stringify({ name: "John", age: 30 }) // this will send the data to the server
+// })
+// .then(response => response.text())
+// .then(data => console.log(data)); // this will log the response from the server
+//app.listen(port, () => {
+//   console.log(`Server is running on http://localhost:${port}`);
+//});
+    
