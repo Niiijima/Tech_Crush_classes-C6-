@@ -22,8 +22,27 @@
 
 
 //http status code are three digit numbers returned by the server in the response. they tell the client whether the request was successful, redirected, or caused an error. always set the correct status code. it is part of the API contract
+//100 - informational response
 //2xx - success: 200 Ok (standard success rsponse. used for GET, PUT, PATCH, and DELETE), 201created (resource was successfully created.use after a successful POST), 204 No Content(success but no data to return, common after s DELETE operation)
-//4xx - Client Errors: 400 Bad Request (the request was malformed or missing required fields), 404 unauthorized (authentication is required but was not provided or is invalid), 403 forbidden (authenticated but not permitted)
+//4xx - Client Errors: 400 Bad Request (the request was malformed or missing required fields), 404 unauthorized (authentication is required but was not provided or is invalid), 403 forbidden (authenticated but not permitted to access the resource), 404 Not found (the request resource does not exist)
+//3xx - redirection
+//5xx - Sercer Errors: 500 Internal Server Error(something went wrong on the server, generic catch all for unhandled errors)
 
 
 // assignment:write aboust the entire series of the http code, pick 2 from 100 - 500 each (talk about each of the types you picked )
+
+
+//cjs(common js)
+//modules is dividing your codes into various parts
+//import modules (bringing an already exsiting module in your code)
+//export modules (sending an already existing module you have into another file or code)
+
+//named export and default export styles: the named export directly exports just a fucntion or a part of that file. the default export only sees the function you want to export, only one main thing
+
+//(./) shows the directory route. its used to import one module from where it was exported from. the file you want to import must be the  final  part of the ./
+
+
+
+
+//setting up mongodb
+//install mongoose by typing npm install mongoose on your terminal
